@@ -1,73 +1,138 @@
-# Welcome to your Lovable project
+# 🌐 Waleed Imran — Personal Portfolio
 
-## Project info
+This repository contains the source code for my personal portfolio website, built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**.
+It highlights my projects, skills, experience, and impact as a **Full Stack Engineer** — designed to reflect performance, scalability, and modern web standards.
 
-**URL**: https://lovable.dev/projects/1f9d4ae8-f1f9-46f9-b6b5-f215d1bc86b3
+---
 
-## How can I edit this code?
+## 🚀 Tech Stack
 
-There are several ways of editing your application.
+| Category                 | Technologies                                                                                                |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| **Frontend Framework**   | [React 18+](https://react.dev/) with [TypeScript](https://www.typescriptlang.org/)                          |
+| **Build Tool**           | [Vite](https://vitejs.dev/)                                                                                 |
+| **Styling**              | [Tailwind CSS](https://tailwindcss.com/), PostCSS                                                           |
+| **UI Components**        | [shadcn/ui](https://ui.shadcn.com/), [Lucide Icons](https://lucide.dev/), [Recharts](https://recharts.org/) |
+| **Linting & Formatting** | ESLint, Prettier                                                                                            |
+| **Deployment**           | GitHub Pages + Custom Domain                                                                                |
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1f9d4ae8-f1f9-46f9-b6b5-f215d1bc86b3) and start prompting.
+## 📂 Project Structure
 
-Changes made via Lovable will be committed automatically to this repo.
+```
+waleedimran-waleedimran.github.io/
+├── public/                # Static assets (robots.txt, sitemap.xml)
+├── src/
+│   ├── assets/            # Images and media
+│   ├── components/        # Reusable UI & page sections
+│   │   ├── ui/            # shadcn/ui component wrappers
+│   ├── hooks/             # Custom React hooks
+│   ├── lib/               # Utility functions
+│   ├── pages/             # Page-level components (Home, 404)
+│   ├── App.tsx            # Root component
+│   ├── main.tsx           # Entry point
+│   └── index.css          # Global styles
+├── vite.config.ts         # Vite configuration
+├── tailwind.config.ts     # Tailwind setup
+├── postcss.config.js      # PostCSS setup
+├── tsconfig.json          # TypeScript configuration
+├── package.json           # Dependencies & scripts
+└── index.html             # Root HTML file
+```
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ⚙️ Installation & Setup
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+To run this project locally:
 
-Follow these steps:
+```bash
+# Clone the repository
+git clone https://github.com/WaleedImran/WaleedImran.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Navigate to project folder
+cd WaleedImran
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Once the server starts, open [http://localhost:5173](http://localhost:5173) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🧱 Available Scripts
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+| Command           | Description                     |
+| ----------------- | ------------------------------- |
+| `npm run dev`     | Starts local development server |
+| `npm run build`   | Builds the app for production   |
+| `npm run preview` | Previews the production build   |
+| `npm run lint`    | Runs ESLint for code quality    |
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🌍 Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This portfolio is deployed via **GitHub Pages**.
+To deploy your own version:
 
-## How can I deploy this project?
+```bash
+npm run build
+# Then push the 'dist' folder to the 'gh-pages' branch or configure GitHub Pages in repository settings.
+```
 
-Simply open [Lovable](https://lovable.dev/projects/1f9d4ae8-f1f9-46f9-b6b5-f215d1bc86b3) and click on Share -> Publish.
+If you’re using a **custom domain**, add a `CNAME` file in your `public/` directory with your domain name, e.g.:
 
-## Can I connect a custom domain to my Lovable project?
+```
+www.waleedimran.dev
+```
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📸 Features
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- ⚡ **Lightning-fast** build with Vite
+- 🎨 **Responsive and modern UI** powered by Tailwind
+- 🧠 **AI Assistant** component integration
+- 💼 **Case Studies** and **Impact Metrics** sections
+- 🗕 **Book a Session** feature
+- 🔄 **Scroll animations** and smooth navigation
+- 🧹 Modular architecture for scalability
+
+---
+
+## 🧠 Learnings & Focus
+
+This portfolio showcases:
+
+- Modern React patterns using **functional components** and **custom hooks**
+- Component composition via **shadcn/ui** and **TypeScript generics**
+- Reusable design and accessibility principles
+- Clean folder structure for maintainability
+
+---
+
+## 📧 Contact
+
+If you'd like to collaborate, discuss opportunities, or just say hello:
+
+**🌐 Website:** [waleedimran.com](https://waleedimran.com/)
+
+**💼 LinkedIn:** [linkedin.com/in/m-waleed-imran](https://www.linkedin.com/in/m-waleed-imran/)
+
+**📩 Email:** [waleedimran24@gmail.com](mailto:waleedimran24@gmail.com)
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License** — feel free to use and modify it with attribution.
+
+---
+
+### 💖 Made with passion by [Waleed Imran](https://github.com/WaleedImran)
